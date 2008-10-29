@@ -48,7 +48,7 @@
 		AE70B72B05F73A3F00D56367 /* TestThree.h in Headers */ = {isa = PBXBuildFile; fileRef = AE70B72905F73A3F00D56367 /* TestThree.h */; };
 		AE70B72C05F73A3F00D56367 /* TestThree.m in Sources */ = {isa = PBXBuildFile; fileRef = AE70B72A05F73A3F00D56367 /* TestThree.m */; };
 		AE73F22105F1573200CAFD4D /* UKTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AE73F21F05F1573200CAFD4D /* UKTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE8482AB0EB8B9C000F40D45 /* README in Resources */ = {isa = PBXBuildFile; fileRef = AE8482AA0EB8B9C000F40D45 /* README */; };
+		AE8482CD0EB8BDB000F40D45 /* Readme_GNUSTEP.txt in Resources */ = {isa = PBXBuildFile; fileRef = AE8482CC0EB8BDB000F40D45 /* Readme_GNUSTEP.txt */; };
 		AE8CCFC40680B80F008CA594 /* TemplateInfo.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8CCF6A0680B539008CA594 /* TemplateInfo.plist */; };
 		AE8CCFC50680B80F008CA594 /* UnitKit Bundle.trgttmpl in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8CCF780680B56F008CA594 /* UnitKit Bundle.trgttmpl */; };
 		AE8CCFC60680B810008CA594 /* class.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8CCF690680B539008CA594 /* class.m */; };
@@ -185,7 +185,9 @@
 		AE70B72905F73A3F00D56367 /* TestThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThree.h; sourceTree = "<group>"; };
 		AE70B72A05F73A3F00D56367 /* TestThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThree.m; sourceTree = "<group>"; };
 		AE73F21F05F1573200CAFD4D /* UKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTest.h; sourceTree = "<group>"; };
-		AE8482AA0EB8B9C000F40D45 /* README */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		AE8482B90EB8BB6000F40D45 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		AE8482C70EB8BBC500F40D45 /* GNUMakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUMakefile; sourceTree = "<group>"; };
+		AE8482CC0EB8BDB000F40D45 /* Readme_GNUSTEP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme_GNUSTEP.txt; sourceTree = "<group>"; };
 		AE8CCF680680B539008CA594 /* class.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = class.h; path = "Xcode Integration/File Templates/class.h"; sourceTree = "<group>"; };
 		AE8CCF690680B539008CA594 /* class.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = class.m; path = "Xcode Integration/File Templates/class.m"; sourceTree = "<group>"; };
 		AE8CCF6A0680B539008CA594 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = TemplateInfo.plist; path = "Xcode Integration/File Templates/TemplateInfo.plist"; sourceTree = "<group>"; };
@@ -280,9 +282,11 @@
 		0867D691FE84028FC02AAC07 /* UnitKit */ = {
 			isa = PBXGroup;
 			children = (
-				AE8482AA0EB8B9C000F40D45 /* README */,
+				AE8482B90EB8BB6000F40D45 /* Readme.txt */,
+				AE8482CC0EB8BDB000F40D45 /* Readme_GNUSTEP.txt */,
 				AEEB74D006B1BEFD00BE53E8 /* LICENSE */,
 				AEBED16806B0603600451E26 /* NOTICE */,
+				AE8482C70EB8BBC500F40D45 /* GNUMakefile */,
 				AE70B66E05F71E3F00D56367 /* Prefix.h */,
 				AE923A0F05C3B11600549058 /* Framework */,
 				AE923B5B05C3B3A900549058 /* ukrun Tool */,
@@ -617,7 +621,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8482AB0EB8B9C000F40D45 /* README in Resources */,
+				AE8482CD0EB8BDB000F40D45 /* Readme_GNUSTEP.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -541,6 +541,7 @@
 			AE8482B30EB8B9D500F40D45 /* PBXTextBookmark */ = AE8482B30EB8B9D500F40D45 /* PBXTextBookmark */;
 			AE8482B40EB8B9D500F40D45 /* PBXTextBookmark */ = AE8482B40EB8B9D500F40D45 /* PBXTextBookmark */;
 			AE8482B50EB8B9D500F40D45 /* PBXTextBookmark */ = AE8482B50EB8B9D500F40D45 /* PBXTextBookmark */;
+			AE8482B60EB8BB2F00F40D45 /* PBXTextBookmark */ = AE8482B60EB8BB2F00F40D45 /* PBXTextBookmark */;
 			AEA636EB06D168F2004DF854 = AEA636EB06D168F2004DF854 /* PBXTextBookmark */;
 			AEA636F906D16927004DF854 = AEA636F906D16927004DF854 /* PBXTextBookmark */;
 			AEA636FA06D16927004DF854 = AEA636FA06D16927004DF854 /* PBXTextBookmark */;
@@ -630,7 +631,7 @@
 	};
 	AE70B66E05F71E3F00D56367 /* Prefix.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {632, 635}}";
+			sepNavIntBoundsRect = "{{0, 0}, {632, 612}}";
 			sepNavSelRange = "{186, 5}";
 			sepNavVisRange = "{0, 906}";
 			sepNavVisRect = "{{0, 0}, {515, 492}}";
@@ -3895,9 +3896,15 @@
 		vrLoc = 0;
 	};
 	AE8482AA0EB8B9C000F40D45 /* README */ = {
+		isa = PBXFileReference;
+		fileEncoding = 10;
+		lastKnownFileType = text;
+		name = README;
+		path = /Users/duncan/Code/UnitKit/README;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {632, 612}}";
-			sepNavSelRange = "{335, 0}";
+			sepNavSelRange = "{336, 0}";
 			sepNavVisRange = "{0, 336}";
 		};
 	};
@@ -3940,6 +3947,37 @@
 		rType = 0;
 		vrLen = 336;
 		vrLoc = 0;
+	};
+	AE8482B60EB8BB2F00F40D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AE8482AA0EB8B9C000F40D45 /* README */;
+		name = "README: 9";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	AE8482B90EB8BB6000F40D45 /* Readme.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {632, 1695}}";
+			sepNavSelRange = "{1238, 2700}";
+			sepNavVisRange = "{2553, 1385}";
+		};
+	};
+	AE8482C70EB8BBC500F40D45 /* GNUMakefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {632, 612}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 130}";
+		};
+	};
+	AE8482CC0EB8BDB000F40D45 /* Readme_GNUSTEP.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {632, 612}}";
+			sepNavSelRange = "{117, 0}";
+			sepNavVisRange = "{0, 584}";
+		};
 	};
 	AE8CCFC30680B7D4008CA594 /* Xcode Integration */ = {
 		activeExec = 0;
@@ -4131,7 +4169,7 @@
 	};
 	AEBED16806B0603600451E26 /* NOTICE */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {632, 635}}";
+			sepNavIntBoundsRect = "{{0, 0}, {632, 612}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 1025}";
 			sepNavVisRect = "{{0, 0}, {515, 492}}";
