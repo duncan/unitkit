@@ -37,13 +37,17 @@ CREDIT WHERE CREDIT IS DUE:
 
 UnitKit was created by James Duncan Davidson.
 
-Many people have given ideas, suggestions, and feedback to UnitKit. In particular Mike Clark, Joseph Heck, Glenn Vanderburg, and Daniel Steinberg provided feedback during the early development of UnitKit that materially shaped the current product. 
+Many people have given ideas, suggestions, and feedback to UnitKit. In 
+particular Mike Clark, Joseph Heck, Glenn Vanderburg, and Daniel Steinberg 
+provided feedback during the early development of UnitKit that materially shaped
+the current product. 
 
 Michael Milvich contributed the initial NSException test macros, test handler 
 code, and associated tests. Peter Johnson contributed information about how to
 run tests in the debugger and prompted a few changes to make debugging tests
 easier. Jonathan Wight contributed information helping to untangle the best way
 to test embeddeable frameworks.  David Steinbrunner suggested many changes to
-both this manual and the example code that comes with UnitKit. Mark Dalrymple contributed quiet mode and fixed a bug with multiple test bundles not being
+both this manual and the example code that comes with UnitKit. Mark Dalrymple
+contributed quiet mode and fixed a bug with multiple test bundles not being
 executed correctly. Nicolas Roard contributed patches allowing for UnitKit to
 run under GNUStep.
