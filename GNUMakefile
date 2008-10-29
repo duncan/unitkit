@@ -1,0 +1,8 @@
+include $(GNUSTEP_MAKEFILES)/common.make
+
+FRAMEWORK_NAME= UnitKit
+
+cd "Framework Source" && $(MAKE)
+
+cd "Tool Source" && $(MAKE)
+
