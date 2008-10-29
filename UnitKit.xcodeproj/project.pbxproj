@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -53,7 +53,7 @@
 		AE8CCFC50680B80F008CA594 /* UnitKit Bundle.trgttmpl in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8CCF780680B56F008CA594 /* UnitKit Bundle.trgttmpl */; };
 		AE8CCFC60680B810008CA594 /* class.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8CCF690680B539008CA594 /* class.m */; };
 		AE8CCFC70680B810008CA594 /* class.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE8CCF680680B539008CA594 /* class.h */; };
-		AE923B6405C3B44600549058 /* UnitKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* UnitKit.framework */; };
+		AE923B6405C3B44600549058 /* UnitKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* UnitKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AE923B6505C3B44C00549058 /* UnitKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* UnitKit.framework */; };
 		AE923B6E05C3B57600549058 /* UnitKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AE923B6D05C3B57600549058 /* UnitKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE923B7105C3B62B00549058 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE923B6F05C3B62B00549058 /* InfoPlist.strings */; };
@@ -577,7 +577,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = AE8482450EB8394200F40D45 /* Build configuration list for PBXProject "UnitKit" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 0867D691FE84028FC02AAC07 /* UnitKit */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -666,7 +666,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "# export the build dir as the framework path and point\n# at the currently built ukrun so that we test out just\n# what's being built here and not an already installed\n# copy\nexport DYLD_FRAMEWORK_PATH=$LIBRARY_SEARCH_PATHS\n$BUILT_PRODUCTS_DIR/ukrun \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\"";
+			shellScript = "# export the build dir as the framework path and point\n# at the currently built ukrun so that we test out just\n# what's being built here and not an already installed\n# copy\nexport DYLD_FRAMEWORK_PATH=$LIBRARY_SEARCH_PATHS\n\n$BUILT_PRODUCTS_DIR/ukrun #\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\"";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 

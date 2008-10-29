@@ -36,6 +36,10 @@ int main(int argc, const char *argv[])
     NSString *dyldFrameworkPath = [env objectForKey:@"DYLD_FRAMEWORK_PATH"];
     NSString *frameworkSearchPaths = [env objectForKey:@"FRAMEWORK_SEARCH_PATHS"];
     
+    NSLog(@"DYLD: %@", dyldFrameworkPath);
+    NSLog(@"PATH: %@", frameworkSearchPaths);
+    
+    /*
     if (!dyldFrameworkPath && frameworkSearchPaths) {
         NSTask *task = [[NSTask alloc] init];
         [task setLaunchPath:[args objectAtIndex:0]];
@@ -50,7 +54,9 @@ int main(int argc, const char *argv[])
     } else {
         retval = [UKRunner runTests];
     }
+     */
     
+    retval = [UKRunner runTests];
     [pool release];
     return retval;
 }
