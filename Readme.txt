@@ -5,7 +5,8 @@ UnitKit is a unit test framework for Objective-C. This is a revitalization of
 the long quiet almost dead UnitKit source code from a few years back. It's in
 the process of being updated and adapted for Leopard and Xcode 3.1.
 
-Please watch your head!
+Please watch your head! Currently, there are more than a couple of issues with
+running this code right now. Things are looking like they'll have to change.
 
 
 BUILDING FOR MAC OS X:
@@ -35,12 +36,10 @@ will too once that's back in place.
 CREDIT WHERE CREDIT IS DUE:
 ---------------------------
 
-UnitKit was created by James Duncan Davidson.
-
-Many people have given ideas, suggestions, and feedback to UnitKit. In 
-particular Mike Clark, Joseph Heck, Glenn Vanderburg, and Daniel Steinberg 
-provided feedback during the early development of UnitKit that materially shaped
-the current product. 
+UnitKit was created by James Duncan Davidson. Many people have given ideas, 
+suggestions, and feedback to UnitKit. In particular Mike Clark, Joseph Heck, 
+Glenn Vanderburg, and Daniel Steinberg provided feedback during the early 
+development of UnitKit that materially shaped the current product. 
 
 Michael Milvich contributed the initial NSException test macros, test handler 
 code, and associated tests. Peter Johnson contributed information about how to
