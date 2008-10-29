@@ -3960,9 +3960,9 @@
 	};
 	AE8482B90EB8BB6000F40D45 /* Readme.txt */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {632, 1695}}";
-			sepNavSelRange = "{1238, 2700}";
-			sepNavVisRange = "{2553, 1385}";
+			sepNavIntBoundsRect = "{{0, 0}, {632, 780}}";
+			sepNavSelRange = "{1931, 0}";
+			sepNavVisRange = "{0, 1231}";
 		};
 	};
 	AE8482C70EB8BBC500F40D45 /* GNUMakefile */ = {
@@ -3975,8 +3975,8 @@
 	AE8482CC0EB8BDB000F40D45 /* Readme_GNUSTEP.txt */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {632, 612}}";
-			sepNavSelRange = "{117, 0}";
-			sepNavVisRange = "{0, 584}";
+			sepNavSelRange = "{283, 0}";
+			sepNavVisRange = "{0, 869}";
 		};
 	};
 	AE8CCFC30680B7D4008CA594 /* Xcode Integration */ = {
@@ -4168,18 +4168,24 @@
 		};
 	};
 	AEBED16806B0603600451E26 /* NOTICE */ = {
+		isa = PBXFileReference;
+		fileEncoding = 30;
+		lastKnownFileType = text;
+		name = NOTICE;
+		path = /Users/duncan/Code/UnitKit/NOTICE;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {632, 612}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1025}";
+			sepNavVisRange = "{0, 0}";
 			sepNavVisRect = "{{0, 0}, {515, 492}}";
 		};
 	};
 	AEEB74D006B1BEFD00BE53E8 /* LICENSE */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {632, 3045}}";
+			sepNavIntBoundsRect = "{{0, 0}, {632, 3120}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{9170, 2188}";
+			sepNavVisRange = "{9241, 2117}";
 			sepNavVisRect = "{{0, 2349}, {515, 492}}";
 		};
 	};

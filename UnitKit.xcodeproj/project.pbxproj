@@ -65,7 +65,6 @@
 		AEBED0CD06B04ECD00451E26 /* TestEmbeddedFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBED01906AFADB000451E26 /* TestEmbeddedFramework.framework */; };
 		AEBED0E106B0589C00451E26 /* UKTestEmbeddedFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBED04C06AFB1AB00451E26 /* UKTestEmbeddedFramework.h */; };
 		AEBED0E306B058A100451E26 /* UKTestEmbeddedFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBED04D06AFB1AC00451E26 /* UKTestEmbeddedFramework.m */; };
-		AEBED16906B0603600451E26 /* NOTICE in Resources */ = {isa = PBXBuildFile; fileRef = AEBED16806B0603600451E26 /* NOTICE */; };
 		AEBEF4B805FAF2910020FB35 /* UKTestMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBEF4B605FAF2910020FB35 /* UKTestMacros.h */; };
 		AEBEF4B905FAF2910020FB35 /* UKTestMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBEF4B705FAF2910020FB35 /* UKTestMacros.m */; };
 		AEBEF55C05FBEFD10020FB35 /* UKTestLineNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBEF55A05FBEFD10020FB35 /* UKTestLineNumbers.h */; };
@@ -206,7 +205,6 @@
 		AEBED02806AFAE7800451E26 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		AEBED04C06AFB1AB00451E26 /* UKTestEmbeddedFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTestEmbeddedFramework.h; sourceTree = "<group>"; };
 		AEBED04D06AFB1AC00451E26 /* UKTestEmbeddedFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKTestEmbeddedFramework.m; sourceTree = "<group>"; };
-		AEBED16806B0603600451E26 /* NOTICE */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
 		AEBEF4B605FAF2910020FB35 /* UKTestMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTestMacros.h; sourceTree = "<group>"; };
 		AEBEF4B705FAF2910020FB35 /* UKTestMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKTestMacros.m; sourceTree = "<group>"; };
 		AEBEF55A05FBEFD10020FB35 /* UKTestLineNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTestLineNumbers.h; sourceTree = "<group>"; };
@@ -285,7 +283,6 @@
 				AE8482B90EB8BB6000F40D45 /* Readme.txt */,
 				AE8482CC0EB8BDB000F40D45 /* Readme_GNUSTEP.txt */,
 				AEEB74D006B1BEFD00BE53E8 /* LICENSE */,
-				AEBED16806B0603600451E26 /* NOTICE */,
 				AE8482C70EB8BBC500F40D45 /* GNUMakefile */,
 				AE70B66E05F71E3F00D56367 /* Prefix.h */,
 				AE923A0F05C3B11600549058 /* Framework */,
@@ -605,7 +602,6 @@
 				AE923B7105C3B62B00549058 /* InfoPlist.strings in Resources */,
 				AEFFFA71060140EB0002576C /* UKTestHandler.strings in Resources */,
 				AE41F3D206812A3F0044760C /* UKRunner.strings in Resources */,
-				AEBED16906B0603600451E26 /* NOTICE in Resources */,
 				AEEB74D106B1BEFD00BE53E8 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
