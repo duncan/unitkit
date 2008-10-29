@@ -1,8 +1,8 @@
 /*
  This source is part of UnitKit, a unit test framework for Mac OS X 
- development. You can find more information about UnitKit at:
+ development. You can find the latest source code for UnitKit at Github:
  
- http://x180.net/Code/UnitKit
+ https://github.com/duncan/unitkit
  
  Copyright (c)2004-2008 James Duncan Davidson
  
