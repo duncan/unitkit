@@ -23,7 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <UnitKit/UKRunner.h>s
+#import <UnitKit/UKRunner.h>
 
 int main(int argc, const char *argv[])
 {
